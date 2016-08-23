@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="5sp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvIgnoreSubRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvIgnoreRow"
+            android:layout_below="@+id/tvIgnoreRow"
+            android:text="@string/time"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@+id/cbIgnoreRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <ImageView
+            android:id="@+id/imvIgnore"
+            android:layout_width="25sp"
+            android:layout_height="25sp"
+            android:layout_alignTop="@+id/cbIgnoreRow"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="5sp"
+            android:layout_toLeftOf="@+id/tvIgnoreSubRow"
+            android:src="@drawable/ignore_rule" />
+
+        <TextView
+            android:id="@+id/tvIgnoreRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/linearLayout1"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="-5sp"
+            android:layout_toRightOf="@+id/linearLayout1"
+            android:gravity="left"
+            android:text="@string/ignore_item"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+</RelativeLayout>

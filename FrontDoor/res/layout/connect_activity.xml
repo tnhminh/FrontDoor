@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/search_icon"
+        android:ems="10"
+        android:hint="@string/type_to_search_log"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <ListView
+        android:id="@+id/lvSensor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.24" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btnClearData"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_data"
+        android:textStyle="bold"
+        android:color="#FFFFFF" />
+
+</LinearLayout>

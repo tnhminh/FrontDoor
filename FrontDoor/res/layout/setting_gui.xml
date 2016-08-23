@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SettingActivity" >
+
+    <CheckBox
+        android:id="@+id/cbTurnOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="6dp"
+        android:layout_x="32dp"
+        android:layout_y="51dp"
+        android:text="@string/turn_on_notification_on_holiday" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSave"
+        android:layout_alignBottom="@+id/btnSave"
+        android:layout_alignRight="@+id/btnNotificationChoice"
+        android:layout_toRightOf="@+id/btnSave"
+        android:text="@string/back" />
+
+    <Button
+        android:id="@+id/btnNotificationChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbTurnOn"
+        android:layout_centerHorizontal="true"
+        android:text="@string/notification_choice" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnNotificationChoice"
+        android:layout_below="@+id/btnNotificationChoice"
+        android:text="@string/save" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnNotificationChoice"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center_horizontal"
+        android:text="@string/please_choose_option"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

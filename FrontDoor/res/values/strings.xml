@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FrontDoor</string>
+    <string name="action_settings">LOG DATABASE EVENT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="newer_state">Newer State</string>
+    <string name="limit_state">Limit State</string>
+    <string name="notification_accept_rule">NOTIFICATION ACCEPT RULE</string>
+    <string name="_ignore_list">IGNORE LIST</string>
+    <string name="exit">EXIT</string>
+    <string name="please_choose_method_call_if_you_want_to_choose_other_feel_free_click_exit_this_action_will_reset_when_you_restart_your_app">Please choose method call, if you want to choose other, feel free click EXIT, this action will reset when you restart your app</string>
+    <string name="newer">NEWER</string>
+    <string name="limit">LIMIT</string>
+    <string name="ok">OK</string>
+    <string name="please_type_a_number_of_long_interval">Please type a number of long interval</string>
+    <string name="type_to_search_log">Type to search log</string>
+    <string name="clear_data">Clear Data</string>
+    <string name="small_text">Small Text</string>
+    <string name="stt">STT</string>
+    <string name="large_text">Large Text</string>
+    <string name="time">Time</string>
+    <string name="ignore_item">Ignore Item</string>
+    <string name="notify_name">Notify Name</string>
+    <string name="clear">Clear</string>
+    <string name="back">Back</string>
+    <string name="turn_on_notification_on_holiday">Turn On Notification On Holiday</string>
+    <string name="notification_choice">Notification Choice</string>
+    <string name="save">Save</string>
+    <string name="please_choose_option">Please choose option</string>
+    <string name="please_choose_time">Please choose Time</string>
+    <string name="selected">Selected</string>
+    <string name="change_the_time">Change the time</string>
+
+</resources>

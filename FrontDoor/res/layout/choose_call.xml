@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center_horizontal"
+        android:text="@string/please_choose_method_call_if_you_want_to_choose_other_feel_free_click_exit_this_action_will_reset_when_you_restart_your_app"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnNewer"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="155sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnLimit"
+        android:layout_alignBottom="@+id/btnLimit"
+        android:layout_alignParentLeft="true"
+        android:text="@string/newer" />
+
+    <Button
+        android:id="@+id/btnLimit"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="155sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:text="@string/limit" />
+
+</RelativeLayout>

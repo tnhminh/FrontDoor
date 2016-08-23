@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <CheckBox
+            android:id="@+id/cbRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="283dp"
+            android:layout_y="8dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <ImageView
+            android:id="@+id/imgCustom"
+            android:layout_width="33sp"
+            android:layout_height="33sp"
+            android:layout_marginLeft="72dp"
+            android:layout_x="10dp"
+            android:layout_y="8dp"
+            android:scaleType="center"
+            android:src="@drawable/time_while" />
+
+        <TextView
+            android:id="@+id/txvRowName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="53dp"
+            android:layout_y="4dp"
+            android:text="@string/notify_name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txvFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="53dp"
+            android:layout_y="28dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/txvLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="90dp"
+            android:layout_y="28dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/txvTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="101dp"
+            android:layout_y="28dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="13sp" />
+
+    </AbsoluteLayout>
+
+</RelativeLayout>

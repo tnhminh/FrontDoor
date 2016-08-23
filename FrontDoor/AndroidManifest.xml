@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.frontdoor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:allowTaskReparenting="false"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="vn.com.tma.frontdoor.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="vn.com.tma.frontdoor.SettingActivity"
+            android:label="Notification Accept Rule"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name="vn.com.tma.frontdoor.NotifyActivity"
+            android:label="Notification Choice"
+            android:theme="@android:style/Theme.Holo" >
+        </activity>
+        <activity
+            android:name="vn.com.tma.frontdoor.TimePickerActivityFrom"
+            android:label="Choose Time From"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name="vn.com.tma.frontdoor.TimePickerActivityTo"
+            android:label="Choose Time To"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name="vn.com.tma.frontdoor.DatePickerActivity"
+            android:label="Choose Date/Time"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name="vn.com.tma.frontdoor.DatabaseActivity"
+            android:label="Log Database"
+            android:theme="@android:style/Theme.Holo" >
+        </activity>
+        <activity
+            android:name="vn.com.tma.frontdoor.DismissActivity"
+            android:label="Dismiss"
+            android:theme="@android:style/Theme.Holo" >
+        </activity>
+        <activity
+            android:name="vn.com.tma.frontdoor.IgnoreActivity"
+            android:label="Ignore"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name="vn.com.tma.frontdoor.IgnoreListActivity"
+            android:label="Ignore List"
+            android:theme="@android:style/Theme.Holo" >
+        </activity>
+        <activity
+            android:name="vn.com.tma.frontdoor.LimitInputActivity"
+            android:label="Limit Input"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name="vn.com.tma.frontdoor.ChooseCallActivity"
+            android:label="Choose Call"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name="vn.com.tma.frontdoor.ChooseLongInterval"
+            android:label="Choose Long Interval"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+    </application>
+
+</manifest>
